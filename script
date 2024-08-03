@@ -1,0 +1,32 @@
+# Earthquake Detector
+
+## Overview
+This project involves building an earthquake detector using a Raspberry Pi 4 and an SW-420 sensor. The detector employs machine learning algorithms to identify P-waves and S-waves, and sends push notifications to a mobile device.
+
+## Components
+- Raspberry Pi 4
+- SW-420 Sensor
+- Python 3.x
+- PyCharm for development
+cd Earthquake-Detector
+Install the required Python packages:
+bash
+Copy code
+pip install -r requirements.txt
+Usage
+Configure the sensor and Raspberry Pi as per the instructions in the config/ directory.
+Run the main program:
+bash
+Copy code
+python src/main.py
+Description: A project to develop an earthquake detector using a Raspberry Pi 4 and SW-420 sensor, leveraging machine learning for seismic wave detection.
+Repository Structure:
+
+README.md
+src/
+docs/
+requirements.txt
+config/
+scripts/
+.gitignore
+
